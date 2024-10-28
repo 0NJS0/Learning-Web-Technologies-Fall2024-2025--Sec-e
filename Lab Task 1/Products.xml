@@ -6,14 +6,14 @@
         <status>1</status>
     </brand>
 
-    <brand ID="20">
+    <brand id="20">
         <name>HTC</name>
         <unit_price>65300</unit_price>
         <stock>35</stock>
         <status>0</status>
     </brand>
 
-        <brand ID="23">
+    <brand id="23">
         <name>Nokia</name>
         <unit_price>25100</unit_price>
         <stock>100</stock>
