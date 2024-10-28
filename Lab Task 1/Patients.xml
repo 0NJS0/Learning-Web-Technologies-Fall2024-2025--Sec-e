@@ -1,0 +1,40 @@
+<patients>
+    <patient sl_no="23">
+        <name>
+            <first>John</first>
+            <last>Carter</last>
+        </name>
+
+        <addmission_Date>
+            <day>25</Day>
+            <month>12</month>
+            <year>2015</year>
+        </addmission_Date>
+
+    </patient>
+
+    <patient ID="29">
+        <name>
+            <first>Bob</first>
+            <last>Marshall</last>
+        </name>
+
+        <addmission_Date>
+            <day>13</Day>
+            <month>01</month>
+            <year>1999</year>
+        <addmission_Date>
+    </patient>
+
+    <patient ID="35">
+        <name>
+            <first>Clark</first>
+            <last>Kent</last>
+        </name>
+
+        <addmission_Date>
+            <day>17</Day>
+            <month>06</month>
+            <year>2005</year>
+        <addmission_Date>
+    </patient>
