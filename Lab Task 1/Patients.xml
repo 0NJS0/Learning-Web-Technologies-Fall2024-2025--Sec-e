@@ -13,7 +13,7 @@
 
     </patient>
 
-    <patient ID="29">
+    <patient sl_no="29">
         <name>
             <first>Bob</first>
             <last>Marshall</last>
@@ -26,7 +26,7 @@
         <addmission_Date>
     </patient>
 
-    <patient ID="35">
+    <patient sl_no="35">
         <name>
             <first>Clark</first>
             <last>Kent</last>
