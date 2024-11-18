@@ -1,13 +1,13 @@
 <?php 
 
     if(isset($_POST['submit'])){
-        $username = $_POST['gender'];
 
-        if($username == null){
-            echo "Null Entry";
+        if (isset($_POST['gender'])) {
+            $gender = $_POST['gender'];
+            header('location: page5.html');
         }
     else{
-        header('location: page4.html');
+        echo "Please select a gender.";
     }
 }
     else{
