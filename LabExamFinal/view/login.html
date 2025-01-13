@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <title>Login</title>
+    </head>
+    <body>
+    <h1>Login Form</h1>
+
+        <form method="post" action="../controller/logincheck.php" onsubmit="return validateForm()">
+            <table>
+                <tr>
+                    <th colspan="2">Login Information</th>
+                </tr>
+                <tr>
+                    <td>Username:</td>
+                    <td><input type="text" id="username" name="username" value="" /></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" id="password" name="password" value="" /></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="signup">
+                        No Account? <a href="./signup.html">Sign up</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" name="submit" value="Login" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+</body>
+</html>
+<script>
+    function validateForm() {
+        let username = document.getElementById('username').value.trim();
+        let password = document.getElementById('password').value;
+
+
+        if (username === "") {
+        alert("Username is required.");
+        return false;
+        }
+
+        if (password === "") {
+            alert("Password is required.");
+            return false;
+        }
+
+    alert("Login successfull");
+    return true;
+}
+</script>
